@@ -5,7 +5,8 @@ function App() {
   return (
     <div>
       <nav>
-        <Link to="/">صفحه اصلی</Link> | <Link to="/test">صفحه تست</Link>
+        <Link to="/">صفحه اصلی</Link> | <Link to="/test">صفحه تست</Link> |{" "}
+        <Link to="/elnaz">صفحه تست دوم</Link>
       </nav>
       <Outlet />
     </div>
